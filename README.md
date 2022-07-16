@@ -1,3 +1,4 @@
+# Json configs
 ```json
 {
   "workbench.iconTheme": "material-icon-theme",
@@ -48,3 +49,32 @@
   }
 }
 ```
+
+# VSCode Extensions
+* Themes
+  * Dracula
+  * Omni Owl
+  * Material Icon Theme
+* HTML -> CSS
+  * Auto Rename Tag
+  * Color Highlight
+  * CSS Modules
+  * Live Sass Compiler
+  * Sass
+  * Sass
+  * styled-components-snippets
+  * vscode-styled-components
+* Javascript
+  * ESLint
+  * Code Spell Checker
+  * ES7+ React/Redux/React-Native snippets
+  * Simple React Snippets
+* Addons
+  * Bookmarks
+  * Codesnap
+  * Discord Presence
+  * Emoji
+  * GitLens
+  * Settings Sync
+  * Tabnine
+  * Tabnine
