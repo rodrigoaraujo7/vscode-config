@@ -70,6 +70,7 @@
   * ES7+ React/Redux/React-Native snippets
   * Simple React Snippets
 * Addons
+  * Salesforce Extension Pack
   * Bookmarks
   * Codesnap
   * Discord Presence
