@@ -29,6 +29,9 @@
       "activityBar.background": "#191a22",
       "sideBar.background": "#191a22",
       "activityBar.foreground": "#3fda61"
+    },
+    "[Shades of Purple]": {
+      "activityBar.foreground": "#ffc04a"
     }
   },
 
@@ -36,7 +39,7 @@
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "tabnine.experimentalAutoImports": true,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -46,7 +49,18 @@
   "sync.quietSync": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+  },
+
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // Salesforce - Apex
+  "workbench.editorAssociations": {
+    "*.soql": "default"
+  },
+  "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
+  "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "salesforcedx-vscode-apex.java.home": "C:\\Program Files\\Java\\jdk-17.0.4.1\\"
 }
 ```
 
@@ -54,6 +68,7 @@
 * Themes
   * Dracula
   * Omni Owl
+  * Shades of Purple
   * Material Icon Theme
 * HTML -> CSS
   * Auto Rename Tag
