@@ -43,7 +43,7 @@
   "tabnine.experimentalAutoImports": true,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "sync.autoDownload": true,
   "sync.autoUpload": true,
   "sync.quietSync": true,
@@ -92,5 +92,3 @@
   * Emoji
   * GitLens
   * Settings Sync
-  * Tabnine
-  * Tabnine
