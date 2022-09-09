@@ -88,7 +88,6 @@
   * CSS Modules
   * Live Sass Compiler
   * Sass
-  * Sass
   * styled-components-snippets
   * vscode-styled-components
 * Javascript
