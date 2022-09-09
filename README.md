@@ -13,7 +13,7 @@
   "workbench.colorTheme": "Dracula",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14.75,
+  "editor.fontSize": 15.35, // 15.35
   "editor.letterSpacing": 0.25,
   "editor.lineHeight": 1.75,
 
@@ -32,7 +32,12 @@
     },
     "[Shades of Purple]": {
       "activityBar.foreground": "#ffc04a"
-    }
+    },
+    "statusBar.background": "#242836",
+    "statusBar.noFolderBackground": "",
+    "statusBar.debuggingBackground": "",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingForeground": "#ffffff"
   },
 
   "bracket-pair-colorizer-2.colors": ["#26de81", "#c56cf0", "#45aaf2"],
@@ -52,6 +57,13 @@
   },
 
   "liveServer.settings.donotShowInfoMsg": true,
+
+  // Statusbar configs
+  "statusBarCustomColor.primaryBkColor": "#242836",
+  "statusBarCustomColor.secondaryBkColor": "",
+  "statusBarCustomItem.text": "Rodrigo",
+  "statusBarCustomItem.tooltip": "",
+  "statusBarCustomItem.icon": "🦄",
 
   // Salesforce - Apex
   "workbench.editorAssociations": {
@@ -91,4 +103,5 @@
   * Discord Presence
   * Emoji
   * GitLens
-  * Settings Sync
+  * Settings Sync  (Disable)
+  * Status Bar Customizer
