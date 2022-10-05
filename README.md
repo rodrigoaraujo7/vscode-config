@@ -10,7 +10,7 @@
   // "editor.fontLigatures": true,
   // "editor.fontSize": 15,
 
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Aura Dark",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 15.35, // 15.35
@@ -28,9 +28,9 @@
       "editor.background": "#1c1e25",
       "activityBar.background": "#191a22",
       "sideBar.background": "#191a22",
-      "activityBar.foreground": "#3fda61"
+      "activityBar.foreground": "#77d7fd"
     },
-    "[Shades of Purple]": {
+    "[Aura Dark]": {
       "activityBar.foreground": "#ffc04a"
     },
     "statusBar.background": "#242836",
@@ -69,11 +69,20 @@
   "workbench.editorAssociations": {
     "*.soql": "default"
   },
-  "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
+  
+  // "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
   "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
   "editor.wordWrap": "wordWrapColumn",
-  "salesforcedx-vscode-apex.java.home": "C:\\Program Files\\Java\\jdk-17.0.4.1\\"
+  "salesforcedx-vscode-apex.java.home": "C:\\Program Files\\Java\\jdk-17.0.4.1\\",
+  "editor.wordWrapColumn": 125,
+
+  // Pets
+  "vscode-pets.theme": "forest",
+  "vscode-pets.petSize": "large",
+  "vscode-pets.petType": "rubber-duck",
+  "vscode-pets.position": "explorer"
 }
+
 ```
 
 # VSCode Extensions
@@ -97,6 +106,8 @@
   * Simple React Snippets
 * Addons
   * Salesforce Extension Pack
+  * Apex PMD
+  * Salesforce Snippets
   * Bookmarks
   * Codesnap
   * Discord Presence
@@ -104,3 +115,4 @@
   * GitLens
   * Settings Sync  (Disable)
   * Status Bar Customizer
+  * vscode-pets
