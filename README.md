@@ -131,31 +131,3 @@
   "workbench.colorTheme": "Min Dark"
 }
 ```
-
-# VSCode Extensions
-* Themes
-  * Min Dark
-  * Dracula
-  * Material Icon Theme
-* HTML -> CSS
-  * Auto Rename Tag
-  * Color Highlight
-  * CSS Modules
-  * Live Sass Compiler
-  * Sass
-  * styled-components-snippets
-  * vscode-styled-components
-* Javascript
-  * ESLint
-  * Code Spell Checker
-  * ES7+ React/Redux/React-Native snippets
-  * Simple React Snippets
-* Addons
-  * Bookmarks
-  * Codesnap
-  * Discord Presence
-  * Emoji
-  * GitLens
-  * Settings Sync  (Disable)
-  * Status Bar Customizer
-  * Expo Tools
