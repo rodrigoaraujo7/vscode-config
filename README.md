@@ -1,62 +1,24 @@
 # Json configs
 ```json
 {
+  "window.commandCenter": false,
+  "workbench.sideBar.location": "right",
   "workbench.iconTheme": "symbols",
-  "explorer.confirmDelete": false,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 13.5,
   "editor.letterSpacing": 0.25,
   "editor.lineHeight": 1.8,
   "editor.rulers": [80, 120],
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "workbench.startupEditor": "newUntitledFile",
   "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
   "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": false,
-  "workbench.activityBar.location": "hidden",
-  "editor.minimap.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "editor.lineNumbers": "off",
-  "window.titleBarStyle": "native",
-
-  "apc.activityBar": {
-    "position": "bottom",
-    "hideSettings": true,
-    "size": 48,
-    "itemMargin": 8,
-    "itemSize": 32
-  },
-  "editor.hideCursorInOverviewRuler": true,
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    },
-    "opacity": 1,
-    "vibrancy": "dark",
-    "frame": false
-  },
-  "apc.header": {
-    "height": 36
-  },
-  "apc.listRow": {
-    "height": 24
-  },
-  "apc.font.family": "Inter",
-  "apc.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".editor-actions": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-header": "padding: 0 8px",
-    ".pane-body": "padding: 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
-    ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
-  },
 
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
@@ -65,34 +27,24 @@
     ".env.local": ".env*",
     ".env": ".env*"
   },
+
   "explorer.fileNesting.enabled": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": []
   },
 
-  "workbench.colorCustomizations": {
-    "[Dracula]": {
-      "editor.background": "#1c1e25",
-      "activityBar.background": "#191a22",
-      "sideBar.background": "#191a22",
-      "activityBar.foreground": "#77d7fd"
-    },
-    "statusBar.background": "#9f00a6",
-    "statusBar.noFolderBackground": "#8a008f",
-    "statusBar.debuggingBackground": "#8a008f",
-    "statusBar.foreground": "#ffffff",
-    "statusBar.debuggingForeground": "#ffffff"
-  },
-  
   "diffEditor.ignoreTrimWhitespace": false,
+
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "editor.formatOnSave": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
@@ -104,30 +56,24 @@
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.cursorBlinking": "expand",
-  "[python]": {
-    "editor.formatOnType": true
-  },
-  "errorLens.excludeBySource": ["Pylance(reportUndefinedVariable)"],
-  "errorLens.onSave": true,
-  "errorLens.messageEnabled": false,
+
   "terminal.integrated.env.windows": {},
   "symbols.hidesExplorerArrows": false,
+
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
   "workbench.statusBar.visible": false,
   "workbench.list.smoothScrolling": true,
   "editor.smoothScrolling": true,
-  "workbench.sideBar.location": "right",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.layoutControl.enabled": false,
-  "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
-  "workbench.colorTheme": "Min Dark"
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.colorTheme": "Min Dark",
+  "editor.formatOnSave": true
 }
 ```
