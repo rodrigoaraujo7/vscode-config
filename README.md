@@ -6,7 +6,7 @@
   "workbench.iconTheme": "symbols",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13.5,
+  "editor.fontSize": 14,
   "editor.letterSpacing": 0.25,
   "editor.lineHeight": 1.8,
   "editor.rulers": [80, 120],
@@ -38,15 +38,8 @@
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.enableMultiLinePasteWarning": "auto",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.action.toggleTabFocusMode": "action",
 
   "liveServer.settings.donotShowInfoMsg": true,
 
@@ -59,15 +52,6 @@
 
   "terminal.integrated.env.windows": {},
   "symbols.hidesExplorerArrows": false,
-
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "workbench.statusBar.visible": false,
   "workbench.list.smoothScrolling": true,
