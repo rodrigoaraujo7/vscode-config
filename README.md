@@ -1,7 +1,11 @@
 # Json configs
 ```json
 {
-  "window.commandCenter": false,
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} - page.tsx",
+    "**/app/**/layout.tsx": "${dirname} - layout.tsx"
+  },
+
   "workbench.sideBar.location": "right",
   "workbench.iconTheme": "symbols",
   "editor.fontFamily": "JetBrains Mono",
@@ -22,15 +26,23 @@
 
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
-    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-, bun.lockb, nest, package-lock*",
+    "tailwind.config.": "tailwind.config, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*"
   },
 
+  "tailwindCSS.experimental.classRegex": [
+    ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+
   "explorer.fileNesting.enabled": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": []
+  },
+
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
   },
 
   "diffEditor.ignoreTrimWhitespace": false,
@@ -39,7 +51,6 @@
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.enableMultiLinePasteWarning": "auto",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "editor.action.toggleTabFocusMode": "action",
 
   "liveServer.settings.donotShowInfoMsg": true,
 
@@ -58,6 +69,17 @@
   "editor.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
   "workbench.colorTheme": "Min Dark",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "window.titleBarStyle": "native",
+  "editor.minimap.autohide": "mouseover",
+  "chat.commandCenter.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  "explorer.confirmPasteNative": false,
+
+  "headwind.runOnSave": true,
+  "explorer.confirmDelete": false,
+  "database-client.autoSync": true
 }
 ```
